@@ -14,7 +14,7 @@ mysqli_set_charset($link, "utf8");
 $query = "SELECT * FROM news ORDER BY id DESC";
 $result = mysqli_query($link, $query);
 
-$row = mysqli_fetch_array($result);
+$row = mysqli_fetch_array($result); 
 if (!$result) {
     die("خطا در اجرای کوئری: " . mysqli_error($link));
 }

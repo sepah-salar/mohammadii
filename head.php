@@ -142,6 +142,7 @@ if (session_status() === PHP_SESSION_NONE) {
         </div>
       
         <ul class="navbar-nav">
+
         <li class="nav-item"><a class="nav-link" href="khane.php">خانه</a></li>
             <li class="nav-item"><a class="nav-link" href="home.php">خرید کانت</a></li>
             <?php if(isset($_SESSION['username']) && $_SESSION['username'] === 'ghalesefid'): ?>

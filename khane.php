@@ -23,7 +23,7 @@ include("head.php");
 ?>
 
 <div class="container mt-5">
-    <h1 class="text-center">خرید اکانت</h1>
+    <h1 class="text-center"> </h1>
     <div class="row">
         <div class="col-md-8 offset-md-2">
             <?php if (mysqli_num_rows($result) > 0): ?>

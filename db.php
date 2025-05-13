@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';  // سرور دیتابیس
-$dbname = 'user_auth';  
+$dbname = 'onenewsdb';  
 $username = 'root';
 $password = '';
 
